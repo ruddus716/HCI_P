@@ -1,0 +1,337 @@
+﻿<!DOCTYPE html>
+<!--[if IE 8]><html class="ie8" lang="en"><![endif]-->
+<!--[if IE 9]><html class="ie9" lang="en"><![endif]-->
+<html lang="en">
+<!-- start: HEAD -->
+<head>
+    <title>Clip-One | Documentation</title>
+    <!-- start: META -->
+    <!--[if IE]><meta http-equiv='X-UA-Compatible' content="IE=edge,IE=9,IE=8,chrome=1" /><![endif]-->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta content="" name="description" />
+    <meta content="" name="author" />
+    <!-- end: META -->
+    <!-- start: MAIN CSS -->
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <link href="assets/css/font-awesome.min.css" rel="stylesheet" media="screen">
+    <link href="assets/css/styles.css" rel="stylesheet" media="screen">
+    <!-- end: MAIN CSS -->
+    <!-- start: FAVICON -->
+    <link rel="shortcut icon" href="favicon.ico" />
+    <!-- end: FAVICON -->
+</head>
+<!-- end: HEAD -->
+<body data-spy="scroll" data-target=".faq-sidebar">
+    <div id="app">
+        <!-- start: HEADER -->
+        <header>
+            <div class="navbar navbar-default" role="navigation">
+                <!-- start: TOP NAVIGATION CONTAINER -->
+                <div class="container">
+                    <div class="navbar-header">
+                        <!-- start: RESPONSIVE MENU TOGGLER -->
+                        <a class="pull-left menu-toggler hidden-md hidden-lg mobile-button" id="menu-toggler" data-toggle="collapse" href=".navbar-collapse"> <span class="sr-only">Toggle navigation</span> <i class="ti-align-justify"></i> </a>
+                        <!-- end: RESPONSIVE MENU TOGGLER -->
+                        <!-- start: RESPONSIVE MENU SEARCH -->
+                        <a class="pull-right hidden-md hidden-lg margin-right-20 mobile-button mobile-menu-search" href="#"> <span class="sr-only">Search Button</span> <i class="ti-search"></i> </a>
+                        <!-- end: RESPONSIVE MENU SEARCH -->
+                        <!-- start: LOGO -->
+                        <a href="index.html" class="navbar-brand"> <img src="assets/images/logo.png" alt="Packet"> </a>
+                        <!-- end: LOGO -->
+                    </div>
+                    <!-- start: NAVBAR -->
+                    <div class="navbar-collapse collapse">
+                        <!-- start: MENU TOGGLER FOR MOBILE DEVICES -->
+                        <div class="close-handle visible-sm-block visible-xs-block menu-toggler" data-toggle="collapse" href=".navbar-collapse">
+                            <div class="arrow-left"></div>
+                            <div class="arrow-right"></div>
+                        </div>
+                        <!-- end: MENU TOGGLER FOR MOBILE DEVICES -->
+                    </div>
+                    <!-- end: NAVBAR -->
+                </div>
+                <!-- end: TOP NAVIGATION CONTAINER -->
+                <div id="overlay-search">
+                    <form method="get" action="search.html">
+                        <input type="text" placeholder="Type &amp; Hit Enter.." value="" class="form-control" name="q">
+                    </form>
+                    <a href="#" class="pull-right margin-right-20 close-search mobile-button" data-toggle-target="body" data-toggle-class="search-open"> <i class="ti-close"></i> </a>
+                </div>
+            </div>
+        </header>
+        <!-- end: HEADER -->
+        <!-- start: APP CONTENT -->
+        <div class="app-content">
+            <div class="main-content">
+                <section id="page-title">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm-8">
+                                <h1 class="mainTitle">Documentation</h1>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="container-fluid container-fullw bg-white">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-9">
+                                <div class="padding-bottom-45">
+                                    <h2 class="margin-bottom-25 margin-top-25" id="section-1"> What is Clip-One? </h2>
+                                    <p>
+                                        Clip-One is the brand new, cutting-edge, super flexible, totally responsive administration theme based on Framework Bootstrap 3. You can use Clip-One in a simple and intuitive way for all your backend applications and thanks to the several customization options you will also be able to customize the template style, color and layout, according to your taste and preferences.
+                                    </p>
+                                    <p>
+                                        It does not matter where you will open Clip-One: Be it on smart phones, tablets or computer desktops, it will perfectly adapt to all your electronic devices.
+                                    </p>
+                                </div>
+                                <div class="padding-bottom-45">
+                                    <h2 class="margin-bottom-25 margin-top-25" id="section-2">Getting <span class="text-bold">Started</span></h2>
+
+                                    <h4>Install Compass</h4>
+                                    <h5 class="margin-bottom-15">WINDOWS</h5>
+                                    <ol>
+                                        <li>
+                                            <p>Install Ruby <a href="http://rubyinstaller.org/downloads/" target="_blank" title="Download Ruby"> rubyinstaller.org/downloads </a></p>
+                                        </li>
+                                        <li>
+                                            <p>Open MS-DOS prompt with Ruby</p>
+                                        </li>
+                                        <li>
+                                            <p>Install Gem</p>
+                                            <pre><span class="text-primary">$ gem update –system</span><br /><span class="text-primary">$ gem install compass</span></pre>
+                                        </li>
+                                        <li>
+                                            <p>Check if compass is properly installed and run the command</p>
+                                            <pre><span class="text-primary">$ compass -v</span></pre>
+                                        </li>
+                                    </ol>
+                                    <hr />
+                                    <h5 class="margin-bottom-15">OS X / LINUX</h5>
+                                    <p>For Linux and OS X folks, depending on your setup, you may or may not need to install gems under the <code>sudo</code> user.</p>
+                                    <p>Ok, I know what you're thinking. I just said that we are going to install Sass, but at the same time I just told you to install Compass based on that directive. The truth is that Compass requires Sass and, when you run that command, you should see something like this:</p>
+                                    <pre><span class="text-primary">$ sudo gem install compass</span><br /><span class="text-primary">Fetching: sass-X.X.X.gem (100%)</span><br /><span class="text-primary">Fetching: compass-X.X.X.gem (100%)</span><br /><span class="text-primary">Successfully installed sass-X.X.X</span><br /><span class="text-primary">Successfully installed chunky_png-X.X.X</span><br /><span class="text-primary">Successfully installed fssm-X.X.X</span><br /><span class="text-primary">Successfully installed compass-X.X.X</span><br /><span class="text-primary">4 gems installed</span></pre>
+
+                                    <h4 class="margin-top-25">Install Node.js</h4>
+                                    <p>To install Node.js you need to download the application directly from the manufacturer <a target="_blank" title="nodejs.org" href="https://nodejs.org/en/download/">nodejs.org</a> and continue with the installation.</p>
+
+                                    <h4 class="margin-top-25">Install Grunt</h4>
+                                    <p>Grunt and its plugins are installed and managed via <code>npm</code>, the Node.js package manager. <b>Grunt 0.4.x</b> requires stable <b>Node.js versions >= 0.8.0</b>. Old version numbers of Node.js are considered unstable development versions.</p>
+                                    <p>Before setting up Grunt, please be sure that your npm is up-to-date by running <code>npm update -g</code> npm (this might require sudo on certain systems).</p>
+                                    <p><b>Installing the CLI</b></p>
+                                    <p>In order to get started, you should install Grunt's command line interface (CLI) globally. You may need to use sudo (for OSX, *nix, BSD etc) or run your command shell as Administrator (for Windows) to do this.</p>
+                                    <pre><span class="text-primary">$ npm install –g grunt-cli</span></pre>
+
+                                    <h4 class="margin-top-25">Install Bower</h4>
+                                    <p>Bower is a command line utility. Install it with npm.</p>
+                                    <pre><span class="text-primary">$ npm install -g bower</span></pre>
+                                    <p>Bower requires <b>Node.js</b>, <b>npm</b> and <b>git</b> link to dowload: <a href="https://git-scm.com/" title="Download and Install">git-scm.com</a>.</p>
+                                </div>
+                                <div class="padding-bottom-45">
+                                    <h2 class="margin-bottom-25 margin-top-25" id="section-3">Task to build the project</h2>
+                                    <p>To fill in the whole project, convert css files, minify and concatenate javascript or fill in the project files to create the final HTML file, run the command: </p>
+                                    <pre><span class="text-primary">$ grunt buildfrontend</span></pre>                                    
+                                </div>
+                                <div class="padding-bottom-45">
+                                    <h2 class="margin-bottom-25 margin-top-25" id="section-6">Template Structure</h2>
+                                    <p>All template pages have a fixed structure, including the following elements:</p>
+                                    <ul>
+                                        <li>Header</li>
+                                        <li>Top Menu</li>
+                                        <li>Main Navigation Menu</li>
+                                        <li>Content</li>
+                                        <li>Footer</li>
+                                    </ul>
+
+                                    <figure>
+                                        <img src="assets/images/image_1.jpg" class="img-responsive" />
+                                    </figure>
+
+                                    <h4 class="margin-bottom-25 margin-top-25">Header</h4>
+                                    <p>The template Header includes the logo, the Top Bar, the Main Menu. It may also include a Sliding Bar.</p>
+
+                                    <h4 class="margin-bottom-25 margin-top-25">Sliding Bar</h4>
+                                    <p>The Sliding Bar includes additional elements compared to the Main Menu.</p>
+                                    <p>In this example it includes:</p>
+                                    <ul>
+                                        <li>About Us Text</li>
+                                        <li>Portfolio</li>
+                                        <li>Contact Us Info</li>
+                                    </ul>
+
+                                    <figure class="margin-bottom-25 margin-top-25">
+                                        <img src="assets/images/image_3.jpg" class="img-responsive" />
+                                    </figure>
+
+                                    <p>According to your needs, you can customize its content.</p>
+
+                                    <h4 class="margin-bottom-25 margin-top-25">Top Bar</h4>
+                                    <p>The Top Bar of this template includes the company contact info and a list of a major Social Networks buttons.</p>                                    
+                                    <p>According to your needs, you can customize its contents.</p>
+
+                                    <h4 class="margin-bottom-25 margin-top-25">Main Navigation Container</h4>
+                                    <p>It includes the logo, the responsive menu toggler and the main navigation menu</p>
+
+                                </div>
+                                <div class="padding-bottom-45">
+                                    <h2 class="margin-bottom-25 margin-top-25" id="section-7"> Content </h2>
+
+                                    <p>It includes the breadcrumbs, the quick search form, the page title and the page main content.</p>
+                                    <p>To create a new page based on the blank page, run the following command</p>
+
+                                    <pre><span class="text-primary">$ grunt buildpagefrontend</span></pre>
+
+                                    <p>Simultaneously you will be asked for the page name</p>
+
+                                </div>
+                                <div class="padding-bottom-45">
+                                    <h2 class="margin-bottom-25 margin-top-25" id="section-8"> Footer </h2>
+                                    <p>It includes the company copyright information as well as a scroll button to rapidly come back to the top of the page.</p>
+                                    <p><b>End of page (Javascripts)</b></p>
+                                    <p>The Javascripts are placed right after the body closing tag. They make the template more dynamic and decrease the web page load times.</p>
+                                </div>
+                                <div class="padding-bottom-45">
+                                    <h2 class="margin-bottom-25 margin-top-25" id="section-9"> Fonts </h2>
+                                    <p>Clip-One uses Google fonts Open Sans e Raleway. All fonts are imported in the main CSS.</p>
+
+                                    <h4 class="margin-bottom-25 margin-top-25">Load Open Sans Font From Remote Google Fonts</h4>
+                                    <pre><span class="text-primary">/***Import fonts***/</span> <br /> <span class="text-primary">@import url(//fonts.googleapis.com/css?family=Open+Sans:400,300,600,700);</span></pre>
+
+                                </div>
+                                <div class="padding-bottom-45">
+                                    <h2 class="margin-bottom-25 margin-top-25" id="section-10"> Configurations </h2>
+
+                                    <h4 class="margin-bottom-25 margin-top-25">Setup Theme</h4>
+                                    <p>5 different color schemes are available on Clip-One. If you would like to set your favorite color, you will just need to add it into the head tag.</p>
+
+                                    <pre><span class="text-primary">&lt;head&gt;</span><br />...<br /><span class="text-primary">&lt;link rel="stylesheet" href="assets/css/theme_blue.css" id="skin_color"&gt;</span><br />...<br /><span class="text-primary">&lt;head&gt;</span></pre>
+
+                                    <p>The default Clip-One layout is very smooth and fits the page like a glove. If you would like to use a boxed layout, you will just need to add the class “layout-boxed” to the body tag.</p>
+                                    <p>The available color schemes are:</p>
+
+                                    <ul>
+                                        <li>theme_blue.css</li>
+                                        <li>theme_purple.css</li>
+                                        <li>theme_red.css</li>
+                                        <li>theme_orange.css</li>
+                                        <li>theme_green.css</li>
+                                    </ul>
+                                    
+                                </div>
+                                <div class="padding-bottom-45">
+                                    <h2 class="margin-bottom-25 margin-top-25" id="section-11">Change Log</h2>
+                                    <h3 class="margin-top-30"> Version 2.0</h3>
+                                    <p><span class="label label-info">NEW</span></p>
+                                    <p>Released on <strong>9 May, 2016</strong></p>
+                                    <p>The 2.0 version introduces for first time Grunt, Bower and SASS, removing LESS.</p>
+                                    <p>All of the plugins have been updated with the last available versions.</p>
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <nav class="faq-sidebar hidden-print hidden-xs hidden-sm affix-top">
+                                    <ul class="nav bs-docs-sidenav">
+                                        <li>
+                                            <a href="#section-1" class="active-anchor">What is Packet?</a>
+                                        </li>
+                                        <li>
+                                            <a href="#section-2" class="active-anchor">Getting Started</a>
+                                        </li>
+                                        <li>
+                                            <a href="#section-3" class="active-anchor">Task to build the project</a>
+                                        </li>
+                                        <li>
+                                            <a href="#section-6" class="active-anchor">Template Structure</a>
+                                        </li>
+                                        <li>
+                                            <a href="#section-7" class="active-anchor">Content</a>
+                                        </li>
+                                        <li>
+                                            <a href="#section-8" class="active-anchor">Footer</a>
+                                        </li>
+                                        <li>
+                                            <a href="#section-9" class="active-anchor">Fonts</a>
+                                        </li>
+                                        <li>
+                                            <a href="#section-10" class="active-anchor">Configurations</a>
+                                        </li>
+                                        <li>
+                                            <a href="#section-11" class="active-anchor">Change Log</a>
+                                        </li>
+                                    </ul>
+
+                                </nav>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+            </div>
+            <!-- start: FOOTER -->
+            <footer id="footer">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-9 padding-bottom-25">
+                            <a class="logo" href="http://www.cliptheme.com"> <img alt="Packet" src="assets/images/logo-cliptheme.png"> </a>
+                            <p class="padding-top-20">
+                                Creative attitude, lifelong learning, deep interest in new web standards, high hopes, extended skills and expertise: these are the main ingredients of Cliptheme.
+                            </p>
+                            <p>
+                                Cliptheme’s ultimate goal is to provide web developers and other IT stakeholders the necessary and most useful tools in order to create premium, high-tech products, combining technology with aesthetic taste as well as compliance with the main usability patterns.
+                            </p>
+                            <p>
+                                Since 2013 Cliptheme has chosen Envato Group’s Themeforest as the best marketplace to present its new projects. In particular, Cliptheme’s Admin Templates, developed with the highest level of care for details and the most cutting-edge web technologies, have immediately gained great appreciation and positive feedback from countless of its satisfied customers.
+                            </p>
+                        </div>
+                        <div class="col-md-3 padding-bottom-25">
+                            <h4 class="margin-bottom-25">Follow Us</h4>
+                            <div class="social-icons">
+                                <ul>
+                                    <li class="social-twitter tooltips" data-original-title="Twitter" data-placement="bottom">
+                                        <a target="_blank" href="https://twitter.com/cliptheme"> Twitter </a>
+                                    </li>
+                                    <li class="social-facebook tooltips" data-original-title="Facebook" data-placement="bottom">
+                                        <a target="_blank" href="https://www.facebook.com/cliptheme/" data-original-title="Facebook"> Facebook </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-copyright">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <p>
+                                    &copy; Copyright <span class="current-year"></span> by Cliptheme. All Rights Reserved.
+                                </p>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </footer>
+            <a id="scroll-top" href="#"><i class="fa fa-angle-up"></i></a>
+            <!-- end: FOOTER -->
+        </div>
+        <!-- end: APP CONTENT -->
+    </div>
+    <!-- start: MAIN JAVASCRIPTS -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/main.js"></script>
+    <!-- end: MAIN JAVASCRIPTS -->
+    <!-- start: JAVASCRIPTS REQUIRED FOR THIS PAGE ONLY -->
+    <script src="assets/js/faq.js"></script>
+    <!-- end: JAVASCRIPTS REQUIRED FOR THIS PAGE ONLY -->
+    <script>
+        jQuery(document).ready(function () {
+            Main.init();
+            Faq.init();
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,44 @@
+{
+  "name": "Clip-One-Frontend",
+  "version": "2.0.0",
+  "description": "Frontend Template build with Twitter Bootstrap and jQuery",
+  "keywords": [
+    "bootstrap",
+    "jquery",
+    "dashboard",
+    "frontend",
+    "panel",
+    "app",
+    "charts",
+    "components",
+    "ui",
+    "responsive",
+    "layout",
+    "route",
+    "web",
+    "app",
+    "widgets"
+  ],
+  "scripts": {
+    "start": "node_modules/.bin/http-server -a 127.0.0.1 -p 8082 -c-1 -o"
+  },
+  "author": "ClipTheme",
+  "license": "Envato REGULAR LICENSE",
+  "repository": {
+    "type": ""
+  },
+  "devDependencies": {
+    "grunt": "^1.0.0",
+    "grunt-cli": "^1.2.0",
+    "grunt-contrib-concat": "^1.0.0",
+    "grunt-contrib-copy": "^1.0.0",
+    "grunt-contrib-cssmin": "^1.0.1",
+    "grunt-contrib-uglify": "^1.0.1",
+    "grunt-html-build": "^0.5.3",
+    "grunt-prompt": "^1.3.3",
+    "http-server": "^0.9.0",
+    "load-grunt-config": "^0.19.1",
+    "load-grunt-tasks": "^3.4.1",
+    "time-grunt": "^1.3.0"
+  }
+}

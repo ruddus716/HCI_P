@@ -71,7 +71,6 @@
 
         /* Control the right side */
         .right {
-            resize: horizontal;
             overflow: auto;
             padding-top: 0px;
 
@@ -82,9 +81,9 @@
 
         #div_resize {
             border: 1px solid;
+            
             border-color: 	#E2E2E2;
-            resize: both;
-            overflow: auto;
+            overflow:  scroll;
             position: fixed;
 
         }
@@ -398,11 +397,12 @@
             }
         }
     </script>
-    <div style="margin-left: 10%;margin-right: 10%;">
+	<div style="margin-left: 10%;margin-right: 10%;"> 
 
         <div class="split left" id="div_resize">
+		<!--<div class="split left" id="div_resize">-->
 
-            <div class="container">
+            <div class="container"  style="width: auto; height: auto; -ms-overflow-style: none; ">
 
                 <!-- <h3 style="font-family:'NanumBarunGothic', 'serif'; color: #707070">Explore by color.
                 </h3>
@@ -483,8 +483,7 @@
                     <div class="newsletter">
                         <h4>Newsletter</h4>
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec hendrerit vehicula est, in
-                            consequat.
+                            Enter your e-mail address and get new art recommendations every day.
                         </p>
                         <form method="POST" action="#" id="newsletterForm">
                             <div class="input-group">
@@ -502,8 +501,8 @@
                 <div class="col-md-3">
                     <h4>Latest Tweet</h4>
                     <div class="twitter" id="tweet">
-                        <i class="fa fa-twitter"></i> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
-                        hendrerit vehicula est, in consequat.
+                        <i class="fa fa-twitter"></i> @daily_art_official_Summer is comming! 
+Visit Daily Arts and check some interesting articles about summer-themed art works!
                         <a href="#" class="time">
                             12 Dec
                         </a>
